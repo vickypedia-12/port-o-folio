@@ -6,8 +6,8 @@
     top: 8%;
     border-radius: 50%;
     flex-wrap: wrap;
-    transition: transform .3s ease-in-out;
     opacity: 90%;
+    border: 5px solid #aaadaf65;
 }
 h1{
     font-size: 110px;
@@ -15,7 +15,7 @@ h1{
     transition: transform 0.3s ease-in-out;
     /* Create a conic gradient. */
   /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
-  background: linear-gradient(to right, #caf0f8 ,  #90e0ef , #0096c7,  #0077b6 ,  #1b01df ,#0077b6, #0096c7,#90e0ef,#caf0f8 );
+  background: linear-gradient(to right, #b5babc34 ,  #abb4b47e,  #8b8e8f4a ,  #68676d4f ,#8e91929a, #45474865,#908f92,#3b3d3dd7 );
   
   /* Set thee background size and repeat properties. */
   background-size: 57%;
@@ -34,12 +34,11 @@ h1{
   margin-left: 80px;
 }
 h1:hover{
-    transform: scale(1.1);
-    animation: rainbow-text-animation 0.5s ease forwards;
+    text-shadow: 0px 0px 1px #d9edf4 ;
 }
 
 .tank{
-    background: linear-gradient(to right,#0d1b2a,#1b263b, #415a77, #778da9,#e0e1dd);
+    background-color: #000000e1;
 }
 @keyframes rainbow-text-animation {
     0% {
@@ -56,11 +55,10 @@ h1:hover{
     }
   }
 button{
-    background-color: #041456c4; /* Green */
+    background-color: #595a5f82; /* Green */
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: underline;
     font-size: 26px;
     border-radius: 80px;
     transition: transform .3s ease-in-out;
@@ -70,14 +68,19 @@ button{
     width: 200px;
 }
 button:hover{
-    transform: scale(1.45);`
+    transform: scale(1.45);
 }
-.profile:hover{
-    transform: scale(1.25);
+.cool{
+  font-size: 60px;
+  color: #474e567b;
+  line-height: 0px;
+  margin-left: 10%;
+  text-shadow: 2px 2px #ffffff ;
+}
+.multitext{
+  font-size: 60px;
+  color: #757c7e;
+  line-height: 0px;
+  text-shadow: 2px 2px #ffffff;
+}
 
-}
-.key{
-    font-size: 40px;
-    color: #7ed5e5;
-    line-height: 0px;
-}
