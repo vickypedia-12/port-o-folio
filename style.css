@@ -109,7 +109,10 @@ button:hover{
   margin-top: 15%;
 }
 .socialacc{
-  margin-left: 45%;
+  margin-left: 40%;
+}
+.socio{
+  color: #ffffff;
 }
 .socio:hover{
   color: grey;
