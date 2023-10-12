@@ -1,23 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" style="background: black">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="tank">
-    
-    <div> 
-    <h1>Vikas Mourya</h1><br>
-    <span class="cool">I am </span><span class="multitext"></span>
-    <img class="profile" src="linkedin.JPG" alt="Profile Picture" ></div>
-    <br><br><br><br>
-        <a href="index.html" target="_blank"><button class="i">HOME</button></a><br><br>
-        <a href="About.html" target="_blank"><button class="ii">ABOUT</button></a><br><br>
-        <a href="project.html" target="_blank"><button class="iii">PROJECT</button></a><br><br>
-        <a href="contact.html" target="_blank"><button class="iv">CONTACT</button></a><br><br>
-        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-        <script src="script.js"></script>
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div id="navbar" style="width: 100%; background: transparent">
+        <div class="navbar">
+          <div class="navbar-start">
+            <a class="btn btn-ghost normal-case text-2xl text-white"
+              >Vikas Mourya</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex text-white">
+            <ul class="menu menu-horizontal px-3 text-2xl">
+              <li><a>Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#contact me">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn">My Resume</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1
+          style="
+            font-size: 90px;
+            padding: 0px;
+            margin-left: 15%;
+            margin-top: 10%;
+          ">
+          Vikas Mourya
+        </h1>
+        <br />
+        <div class="txt">
+          <span class="multitext"></span>
+        </div>
+        <img class="profile" src="linkedin.JPG" alt="Profile Picture" />
+      </div>
+      <div class="about">
+        <h1 class="top" id="about" style="text-align: center; font-size: 60px">
+          About Me
+        </h1>
+        <br />
+        <p
+          id="myself"
+          style="
+            font-size: 30px;
+            text-align: center;
+            width: 70%;
+            margin-left: 15%;
+          ">
+          Hellow Guys, This is Vikas Mourya, A 19 Yr Old Second year student of
+          Information Technology at Thakur College Of Engineering and
+          Technoology. Committed to utilising my skills to help others, while
+          hoping to get some quality experience. Highly organized, and skilled
+          im written and verbal commuincation. Excellent Time management skills
+          combined with basic knowledge of coding. I am experienced with C, C++,
+          Python, Html, css, Javascript. I am a 1&#11088; coder at Codechef, and
+          I am sure it wont be long when I become a 2&#x2b50;.
+        </p>
+      </div>
+      <div class="project">
+        <h1
+          class="about"
+          id="project"
+          style="text-align: center; font-size: 60px">
+          Projects
+        </h1>
+        <br />
+        <br />
+        <p
+          class="note"
+          style="
+            font-size: 30px;
+            text-align: center;
+            width: 70%;
+            margin-left: 15%;
+          ">
+          Hellow guys, This is Vikas Mourya again, and you might notice that
+          this section is quite empty, and yeah I know that means I don't have
+          any projects worthy of showing here except the one you are looking at.
+        </p>
+      </div>
+      <br />
+      <br />
+      <div id="contact me" style="margin-top: 20%">
+        <h1 class="contact" style="text-align: center; font-size: 60px">
+          Contact Me
+        </h1>
+        <div class="socialacc">
+          <a
+            href="https://www.linkedin.com/in/vikas-mourya-0a5875228/"
+            target="_blank"
+            class="mama"
+            ><i class="bx bxl-linkedin-square" style="font-size: 60px"></i
+          ></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a
+            href="https://github.com/Vickypedia-12"
+            target="_blank"
+            class="mama"
+            ><i class="bx bxl-github" style="font-size: 60px"></i
+          ></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a
+            href="mailto: vikasmourya54321gmail.com  "
+            target="_blank"
+            class="mama"
+            ><i class="bx bxl-gmail" style="font-size: 60px"></i
+          ></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
