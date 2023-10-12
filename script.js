@@ -5,3 +5,7 @@ var typed = new Typed(".multitext",{
     backDelay: 900,
     loop: true
 })
+
+$(window).load(function() {
+    $("body").removeClass("preload");
+  });
