@@ -11,7 +11,9 @@
   margin-top: 8%;
 }
 body{
+  scroll-behavior: smooth;
   background-color: #000000;
+  
 }
 h1 {
   font-size: 110px;
